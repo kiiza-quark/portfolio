@@ -3,6 +3,7 @@ import {BsClipboardData} from "react-icons/bs";
 import {DiCodeigniter} from "react-icons/di";
 import {GiCommercialAirplane} from "react-icons/gi";
 import {FaMobileAlt} from "react-icons/fa";
+import { SiGooglescholar } from 'react-icons/si';
 
 const homeConfig = {
 
@@ -11,29 +12,28 @@ const homeConfig = {
             Hi! I'm <strong className="main-name"> Nshabiirwe Kizzah</strong>
         </h1>,
     titles: [
+        "Computer Science Student",
         "Data Scientist",
         "Machine Learning Specialist",
-        "Open Source Contributor",
         "Backend Developer",
-        "Colombian"
+        "Ugandan"
     ],
     about: {
-        start: "I've been working for over six years on data science projects. " +
-            "I'm excited by learning new things, contributing to the data science community," +
-            " and spreading the word of data!",
-        exit: "I'm fluent at Python, SQL databases, BI tools, and more, " +
+        start: "I am currently a computer science student at Makerere University, " +
+            "I'm excited by learning new things, working on software solutions" +
+            " and reading about Astronomy",
+        exit: "I'm fluent at Python and its packages, Web development with Js, HTML, CSS and more, " +
             "with a deep interest in machine learning."
     },
     workTimeline: [
         {
             id: "work-3",
-            title: "Sr Data Scientist",
-            company: "Globant",
-            description: "Build AutoML models and make them available to non-technical " +
-                "users from a graphical interface.",
-            date: "2021-present",
-            icon: <DiCodeigniter/>,
-            tags: ["ml", "automl", "python", "docker", "redshift", "superset"]
+            title: "Student",
+            company: "Makerere University",
+            description: "Doing  Bachelor of science in computer science",
+            date: "2022-present",
+            icon: <SiGooglescholar/>,
+            tags: ["ml", "DSA", "python", "docker", "Django", "Databases"]
         },
         {
             id: "work-2",

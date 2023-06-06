@@ -1,19 +1,22 @@
 import {
     SiPython,
     SiPostgresql,
-    SiMicrosoftsqlserver,
     SiDocker,
-    SiMicrosoftazure,
-    SiRedis,
+    SiAmazonaws,
+    SiGooglecloud,
+    SiFirebase,
+    SiFlutter,
+    SiDjango,
+    SiUbuntu,
     SiReact,
     SiJavascript,
     SiCss3,
     SiHtml5,
     SiWindowsterminal,
-    SiSnowflake,
-    SiApacheairflow,
-    SiApachekafka,
-    SiPowerbi
+    SiGooglecolab,
+    SiAmazons3,
+    SiRos,
+    SiC
 } from "react-icons/si";
 import {GrMysql} from "react-icons/gr";
 import {FaGitAlt} from "react-icons/fa";
@@ -35,10 +38,16 @@ const skillsConfig = {
             text: "Postgres"
         },
         {
+            id: "skills-5",
+            className: "skill-icon",
+            icon: <GrMysql size={50}/>,
+            text: "MySQL"
+        },
+        {
             id: "skills-2",
             className: "skill-icon",
-            icon: <SiMicrosoftsqlserver size={50}/>,
-            text: "MSSQL"
+            icon: <SiAmazonaws size={50}/>,
+            text: "AWS Cloud"
         },
         {
             id: "skills-3",
@@ -49,46 +58,53 @@ const skillsConfig = {
         {
             id: "skills-4",
             className: "skill-icon",
-            icon: <SiMicrosoftazure size={50}/>,
-            text: "Azure"
+            icon: <SiDjango size={50}/>,
+            text: "Django"
         },
         {
             id: "skills-5",
             className: "skill-icon",
-            icon: <FaGitAlt size={50}/>,
-            text: "Git"
-        }
-    ],
-    complementarySkills: [
-        {
-            id: "skills-5",
-            className: "skill-icon",
-            icon: <GrMysql size={50}/>,
-            text: "MySQL"
+            icon: <SiUbuntu size={50}/>,
+            text: "Ubuntu"
+
         },
         {
             id: "skills-6",
             className: "skill-icon",
-            icon: <SiRedis size={50}/>,
-            text: "Redis"
+            icon: <FaGitAlt size={50}/>,
+            text: "Git"
         },
         {
             id: "skills-7",
+            className: "skill-icon",
+            icon: <SiFlutter size={50}/>,
+            text: "Flutter"
+        },
+        {
+            id: "skills-8",
+            className: "skill-icon",
+            icon: <SiRos size={50}/>,
+            text: "ROS"
+        }
+    ],
+    complementarySkills: [
+        {
+            id: "skills-8",
+            className: "skill-icon",
+            icon: <SiGooglecloud size={50}/>,
+            text: "Google Cloud"
+        },
+        {
+            id: "skills-9",
             className: "skill-icon",
             icon: <SiWindowsterminal size={50}/>,
             text: "Bash"
         },
         {
-            id: "skills-8",
+            id: "skills-10",
             className: "skill-icon",
-            icon: <SiSnowflake size={50}/>,
-            text: "Snowflake"
-        },
-        {
-            id: "skills-9",
-            className: "skill-icon",
-            icon: <SiApacheairflow size={50}/>,
-            text: "Airflow"
+            icon: <SiFirebase size={50} />,
+            text: "Firebase"
         },
         {
             id: "skills-10",
@@ -118,15 +134,21 @@ const skillsConfig = {
         {
             id: "skills-14",
             className: "skill-icon",
-            icon: <SiApachekafka size={50}/>,
-            text: "Kafka"
+            icon: <SiAmazons3 size={50}/>,
+            text: "AWS S3"
         }
         ,
         {
             id: "skills-15",
             className: "skill-icon",
-            icon: <SiPowerbi size={50}/>,
-            text: "Power BI"
+            icon: <SiGooglecolab size={50}/>,
+            text: "Google Colab"
+        },
+        {
+            id: "skills-16",
+            className: "skill-icon",
+            icon: <SiC size={50} />,
+            text: "C Pogramming"
         }
     ]
 }
