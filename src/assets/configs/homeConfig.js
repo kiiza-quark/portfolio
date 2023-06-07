@@ -1,7 +1,5 @@
 import React from 'react'
-import {BsClipboardData} from "react-icons/bs";
-import {DiCodeigniter} from "react-icons/di";
-import {GiCommercialAirplane} from "react-icons/gi";
+
 import {FaMobileAlt} from "react-icons/fa";
 import { SiGooglescholar } from 'react-icons/si';
 
@@ -30,39 +28,19 @@ const homeConfig = {
             id: "work-3",
             title: "Student",
             company: "Makerere University",
-            description: "Doing  Bachelor of science in computer science",
+            description: "Doing  Bachelors of science in computer science",
             date: "2022-present",
             icon: <SiGooglescholar/>,
-            tags: ["ml", "DSA", "python", "docker", "Django", "Databases"]
+            tags: ["ml", "dsa", "python", "docker", "django", "databases"]
         },
         {
             id: "work-2",
-            title: "BI Manager",
-            company: "Rappi",
-            description: "Leading a team of analysts and data scientists to execute different projects, " +
-                "including the construction of ETLs, data lakes, data warehouses, and machine learning models.",
+            title: "Student",
+            company: "CodeIt Instittute of Technology",
+            description: "Short course on Python, AWS, and Blockchain Engineering",
             date: "2019-2021",
             icon: <FaMobileAlt/>,
-            tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
-        },
-        {
-            id: "work-1",
-            title: "CRM Analytics Coordinator",
-            company: "Avianca",
-            description: "Tech leader of a BI, Data Science and DBA team. " +
-                "Build forecast models, data warehouse and Power BI dashboards.",
-            date: "2018-2019",
-            icon: <GiCommercialAirplane/>,
-            tags: ["ml", "mssql", "python", "docker", "pbi", "azure"]
-        },
-        {
-            id: "work-0",
-            title: "BI Analyst",
-            company: "Onelink BPO",
-            description: "Build interactive dashboards, ETLs and SQL queries to show the company KPIs.",
-            date: "2016-2018",
-            icon: <BsClipboardData/>,
-            tags: ["python", "mssql", "pbi", "excel"]
+            tags: ["solidity", "aws", "python", "dsa", "flask", "api"]
         }
     ]
 }
