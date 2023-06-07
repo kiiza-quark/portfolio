@@ -38,7 +38,7 @@ const homeConfig = {
             title: "Student",
             company: "CodeIt Instittute of Technology",
             description: "Short course on Python, AWS, and Blockchain Engineering",
-            date: "2019-2021",
+            date: "2022 08-2023 02",
             icon: <FaMobileAlt/>,
             tags: ["solidity", "aws", "python", "dsa", "flask", "api"]
         }
