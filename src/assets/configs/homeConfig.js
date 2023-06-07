@@ -10,10 +10,11 @@ const homeConfig = {
             Hi! I'm <strong className="main-name"> Nshabiirwe Kizzah</strong>
         </h1>,
     titles: [
-        "Computer Science Student",
+        "Python",
         "Data Scientist",
-        "Machine Learning Specialist",
-        "Backend Developer",
+        "Machine Learning",
+        "Web development",
+        "Databases",
         "Ugandan"
     ],
     about: {
